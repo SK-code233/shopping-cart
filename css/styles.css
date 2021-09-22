@@ -1,0 +1,132 @@
+.size-bar {
+    background-color: white;
+    color: #111014;
+    margin-bottom: 1rem;
+    margin-top: 0.01rem;
+    padding-left: 2rem;
+}
+
+.col-two {
+    padding-left: 2rem;
+}
+.free-shipping {
+        position: absolute;
+        color: #ececec;
+        top: 10px;
+        right: 10px;
+        padding: 5px;
+        font-size: 0.5em;
+        background-color: #1b1a20;
+        cursor: default;
+        display: block;
+}
+
+.colorB {
+    color: ;
+}
+
+.nav-text {
+    color: #434343;
+    padding-left: 8rem;
+    font-size: 15px;
+}
+
+.color-dark {
+    color: #191919;
+}
+
+.order-form {
+    padding-right: 5rem;
+}
+
+.flex-image {
+}
+
+.shirt {
+    padding: ;
+    margin: ;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+strong {
+    font-size: 40px;
+    color: #111111;
+}
+
+p {
+    color: #181d21;
+}
+
+.or{
+    color: #58626c;
+    font-size: 17px;
+}
+
+.btn-siz {
+    width: 17rem;
+    color: white;
+    background-color: black;
+    height: 2.1rem;
+    padding-top: 0.3px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding-left: 0.001px;
+    padding-right: 0.001px;
+}
+
+.btn-siz:hover {
+  background-color: #ffc12b;
+  color: white;
+  border-color: gold;
+}
+
+.btn-siza {
+    color: white;
+    background-color: black;
+    height: 1.5rem;
+    padding-top: 0.3px;
+    margin-left: 7rem;
+}
+
+.btn-round {
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    padding: 2px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin-right: 4px;
+    background-color: #ecf4f1;
+    font-size: 0.74em;
+    color: black !important;
+    display: inline-block;
+}
+
+.star {
+    background-color: #e0ece8;
+    border: 2px black !important;
+    color: black;
+}
+
+.stars {
+    padding-bottom: 3px;
+}
+.row-margin {
+    margin-bottom: 1rem;
+}
+
+.line {
+
+}
+
+
+/*img + img {
+    margin: 5px;
+}*/

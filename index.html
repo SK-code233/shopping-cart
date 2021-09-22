@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+	<title> Shopping Cart</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+  <script defer src="svgs/regular/star.svg"></script>
+  <script defer src="svgs/solid/star.svg"></script>
+  <script defer src="metadata/icons.json"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/4fca7507c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+	<!-- Mini Nav Bar-->
+	<nav class="navbar navbar-expand-lg size-bar">
+  <span class="navbar-brand text-left"><h3 class="" style="font-size: 19px;">Sizes:</h3></span>
+  <div class="collapse navbar-collapse" id="navbarText">
+      <span class="navbar-text nav-text">
+      16 Product(s) found
+    </span>
+  </div>
+  <form class="form-inline order-form text-right">
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref"><h6 class="color-dark">Order by</h6></label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected style="width: 8rem;">Select</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</form>
+</nav>
+
+
+		<div class="container-fluid">
+			<div class="row row-margin">
+				<!-- Sizes Column-->
+				<div class="col-md-2 col-two">
+					<button class="btn-round">
+					XS
+					</button>
+
+					<button class="btn-round">
+					S
+					</button>
+
+					<button class="btn-round">
+					M</button>
+
+					<button class="btn-round">
+					ML
+					</button>
+
+					<button class="btn-round">
+					L</button>
+
+					<button class="btn-round">
+					XL</button>
+
+					<button class="btn-round">
+					XXL</button>
+
+					<p class="text-center ">Leave a star on Github if this repository was useful :)</p>
+					<button type="button" class="btn star" data-toggle="tooltip" data-placement="right" title="848">
+         			 <a class="star">
+								<img src="bootstrap-icons-1.5.0/star-fill.svg" alt="Bootstrap" class="stars" width="18" height="18"  viewBox="0 0 16 16" data-view-component="true">
+								<span class="text-muted" data-view-component="true">
+        				Star
+								</span>
+								</a>
+						    <a class="star text-muted" href="" aria-label="4372 users starred this repository">
+						      4.4k
+						    </a>
+	  					
+	 
+				</button>
+				</div>
+
+
+				<!-- First Row-->
+				<div class="col-md-9">
+					<div class="row">
+					
+				<!-- First Shirt Row-->
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Cat-Tee-Black-T-shirt.4edb5154.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Cat Tee Black T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>10</strong>.90 <br>
+									<span class="or">or 9 x$1.21</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/DarkThug.8da09d0b.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Dark Thug Blue-Navy T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>29</strong>.45 <br>
+									<span class="or">or 5 x$5.89</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Sphynx.b047a598.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Sphynx Tie Dye Wine T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>25</strong>.20 <br>
+									<span class="or">or 3 x$3.91</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Skuul.cb8727d9.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Skuul</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>18</strong>.55 <br>
+									<span class="or">or 5 x$8.48</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1">
+				
+			</div>
+
+	</div>	
+
+
+			<div class="row row-margin">
+				<!-- Sizes Column-->
+				<div class="col-md-2 col-two">
+					
+				</div>
+
+
+				<!-- First Row-->
+				<div class="col-md-9">
+					<div class="row">
+					
+				<!-- First Shirt Row-->
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Cat-Tee-Black-T-shirt.4edb5154.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Cat Tee Black T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>10</strong>.90 <br>
+									<span class="or">or 9 x$1.21</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/DarkThug.8da09d0b.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Dark Thug Blue-Navy T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>29</strong>.45 <br>
+									<span class="or">or 5 x$5.89</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Sphynx.b047a598.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Sphynx Tie Dye Wine T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>25</strong>.20 <br>
+									<span class="or">or 3 x$3.91</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Skuul.cb8727d9.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Skuul</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>18</strong>.55 <br>
+									<span class="or">or 5 x$8.48</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1">
+				
+			</div>
+
+	</div>		
+
+			<div class="row row-margin">
+				<!-- Sizes Column-->
+				<div class="col-md-2 col-two">
+					
+				</div>
+
+
+				<!-- First Row-->
+				<div class="col-md-9">
+					<div class="row">
+					
+				<!-- First Shirt Row-->
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Cat-Tee-Black-T-shirt.4edb5154.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Cat Tee Black T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>10</strong>.90 <br>
+									<span class="or">or 9 x$1.21</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/DarkThug.8da09d0b.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Dark Thug Blue-Navy T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>29</strong>.45 <br>
+									<span class="or">or 5 x$5.89</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Sphynx.b047a598.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Sphynx Tie Dye Wine T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>25</strong>.20 <br>
+									<span class="or">or 3 x$3.91</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Skuul.cb8727d9.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Skuul</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>18</strong>.55 <br>
+									<span class="or">or 5 x$8.48</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1">
+				
+			</div>
+
+	</div>
+
+			<div class="row row-margin">
+				<!-- Sizes Column-->
+				<div class="col-md-2 col-two">
+					
+				</div>
+
+
+				<!-- First Row-->
+				<div class="col-md-9">
+					<div class="row">
+					
+				<!-- First Shirt Row-->
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Cat-Tee-Black-T-shirt.4edb5154.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Cat Tee Black T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>10</strong>.90 <br>
+									<span class="or">or 9 x$1.21</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/DarkThug.8da09d0b.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Dark Thug Blue-Navy T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>29</strong>.45 <br>
+									<span class="or">or 5 x$5.89</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Sphynx.b047a598.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Sphynx Tie Dye Wine T-Shirt</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>25</strong>.20 <br>
+									<span class="or">or 3 x$3.91</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+
+					<div class="col-md-3 shirt text-center">
+						<div class="card" style="width: 17rem; height: 40rem;">
+							<div class="free-shipping"> Free Shipping </div>
+	  					<img src="images/Skuul.cb8727d9.jpg" alt="shirt">
+					  	<div class="card-body">
+					    	<h5 class="card-title text-center">Skuul</h5>
+					    	<hr class="line" style="width: 2.5rem; background-color: gold; height: 0.1rem;">
+					   		<p class="card-text">
+										$<strong>18</strong>.55 <br>
+									<span class="or">or 5 x$8.48</span>
+								</p>
+					  	</div>
+					  	<button type="button" class="btn btn-dark btn-siz" id="add-cart">Add to cart
+								</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1">
+				
+			</div>
+
+	</div>	
+		
+</div>
+
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
